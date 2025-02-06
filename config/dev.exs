@@ -1,9 +1,12 @@
 import Config
 
 # Configure your database
+
+# config :helpdesk, :ash_domain, [Helpdesk.Support]
+
 config :helpdesk, Helpdesk.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "123",
   hostname: "localhost",
   database: "helpdesk_dev",
   stacktrace: true,
